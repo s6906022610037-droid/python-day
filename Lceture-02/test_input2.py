@@ -1,0 +1,7 @@
+name = input("Enter your name: ") 
+age = int(input("Enter your age: ")) 
+income = float(input("Enter your income: "))
+print ("The information you in put are:") 
+print ("Name:"+ name)
+print ("Age:"+ age) 
+print ("Income: ", format(income, ' 12,.2f '))
